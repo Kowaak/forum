@@ -8,33 +8,60 @@ aside {
     border: 2px solid white;
     float: left;
     height: 100%;
-    width: 17%;
+    width: 18%;
     text-align: center;
 }
 footer{
     text-align: center;
     border: 2px solid white;
-    width: 99.5%;
+    width: 99.6%;
     height: 60px;
     position: absolute;
     bottom: 0;
 }
 header{
-    width: 99.7%;
+    width: 100%;
     height: 100px;
     border: 2px solid white;
 }
 main{
     border: 2px solid white;
-    width: 99.5%;
-    height: 87.5%;
+    width: 99.6%;
+    height: 87.8%;
     position: absolute;
     min-height: 60%;
 }
-#przycisk1,#przycisk2 {
+.przycisk {
     border-radius: 14px;
     border: 2px solid white;
     color: white;
     background-color: #000000;
     padding: 28px 40px;
+    appearance: button;
+}
+a {
+    color: white;
+}
+fieldset{
+    width: fit-content;
+    border: 2px solid;
+    padding: 12px;
+    margin-top: 17%;
+    margin-left: 41.5%;
+    text-align: center;
+}
+legend{
+    padding: 7px;
+}
+.text {
+    background-color: darkgray;
+    width: 95%;
+    font-size: 20px;
+    padding: 2px;
+}
+.text::focus{
+    outline: 0;
+}
+.text::placeholder {
+    font-weight: bold;
 }
