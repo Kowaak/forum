@@ -1,0 +1,68 @@
+html, body {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    margin: 0;
+}
+aside {
+    border: 2px solid white;
+    float: right;
+    height: calc(100vh - 176px);
+    width: 15.6%;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    position: absolute;
+    border: 2px solid white;
+    width: 99.7%;
+    height: 60px;
+    bottom: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    border: 2px solid white;
+}
+content{
+    border: 2px solid white;
+    width: 84%;
+    height: calc(100vh - 176px);
+    float: right;
+}
+.przycisk {
+    border-radius: 14px;
+    border: 2px solid white;
+    color: white;
+    background-color: #000000;
+    padding: 28px 40px;
+    float: left;
+    margin-top: 10px;
+    appearance: button;
+}
+a {
+    color: white;
+}
+fieldset{
+    width: fit-content;
+    border: 2px solid;
+    padding: 12px;
+    margin-top: 17%;
+    margin-left: 41.5%;
+    text-align: center;
+}
+legend{
+    padding: 7px;
+}
+.text {
+    background-color: darkgray;
+    width: 95%;
+    font-size: 20px;
+    padding: 2px;
+}
+.text:focus{
+    outline: 0;
+}
+.text::placeholder {
+    font-weight: bold;
+}
